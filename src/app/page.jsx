@@ -1,3 +1,4 @@
+import Header from "@/components/header";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
@@ -7,6 +8,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="w-full h-full flex flex-col">
+      <Header/>
 
       <div className="m-[20px] flex flex-wrap gap-[20px] px-[20px] justify-center">
         <Link href="/link1"><Button>Sobre nós</Button></Link>
